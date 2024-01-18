@@ -1,4 +1,3 @@
-# sudoku
 # javascript-sudoku
 
     Make Sudoku Game With HTML CSS JavaScript, Fanzeng663 added the interaction with backend storage-source on Vercel/Postgres database.
