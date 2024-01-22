@@ -4,7 +4,7 @@
   "description": "Make Sudoku Game With HTML CSS JavaScript",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node static/sudoku-backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
