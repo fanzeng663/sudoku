@@ -433,7 +433,7 @@ function saveGameToServer(gameState) {
     level: game_level.textContent,
   };
 
-  fetch("http://localhost:3000/save-game", {
+  fetch("https://sudoku-shadow.vercel.app/save-game", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -450,7 +450,7 @@ function saveGameToServer(gameState) {
 }
 
 function loadGameFromServer(uuid) {
-  fetch(`http://localhost:3000/load-game/${uuid}`)
+  fetch(`https://sudoku-shadow.vercel.app/load-game/${uuid}`)
     .then((response) => response.json())
     .then((data) => {
       console.log("Game loaded from server:", data);
